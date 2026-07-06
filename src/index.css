@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfcf9; /* subtle warm off-white for agricultural theme */
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Google Translate Custom Styling */
+.google-translate-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+.goog-te-gadget-simple {
+  background-color: #ffffff !important;
+  border: 1px solid #e7e5e4 !important; /* border-stone-200 */
+  padding: 3px 8px !important;
+  border-radius: 8px !important;
+  font-size: 11px !important;
+  font-family: inherit !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  cursor: pointer !important;
+}
+.goog-te-gadget-simple img {
+  display: none !important; /* Hide Google icon */
+}
+.goog-te-gadget-simple span {
+  color: #44403c !important; /* text-stone-700 */
+  font-weight: 600 !important;
+}
+.goog-te-menu-frame {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) !important;
+  border-radius: 12px !important;
+  border: 1px solid #e7e5e4 !important;
+}
+.goog-logo-link {
+  display: none !important;
+}
+.goog-te-gadget {
+  font-size: 0px !important;
+}
+body {
+  top: 0px !important; /* Fix Google Translate shifting body down */
+}
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+

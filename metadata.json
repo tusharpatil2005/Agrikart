@@ -1,0 +1,6 @@
+{
+  "name": "Agrikart",
+  "description": "A stylish and fully-functional e-commerce marketplace for fresh farm produce, organic seeds, fertilizers, and agricultural equipment. Includes JWT authentication, farmer dashboards, and product filtering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
