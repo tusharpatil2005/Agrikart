@@ -1,7 +1,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/81d21dfd-d8c1-435d-a508-f2e6ceebe7e0
+View your app in AI Studio: https://agrikart-823323760336.asia-southeast1.run.app
 
 ## Run Locally
 
